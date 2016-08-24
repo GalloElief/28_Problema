@@ -1,0 +1,156 @@
+/* Tu CSS va aqui */
+@media screen and (max-width: 600px){
+	.fotost{
+		background-size: 100%;
+		height: 215px;
+		width:100%;
+		background-repeat: no-repeat;
+	}
+	.imagehover{
+		opacity: 0;
+		width: 100%;
+		height: 19em;
+		background-color:rgba(243, 177, 212, 0.9);
+		-webkit-transition: opacity 0.2s;		
+	}
+	.fotost:hover .imagehover{
+		opacity: 1;
+	}
+	#marggheader{
+		margin: 0% 7% auto;
+		font-size: 70%;
+		padding-top:14%;
+	}
+	.banner{
+		background-image: url("../img/header.jpg");
+		background-repeat: no-repeat;
+		background-size: 150%;
+		width: 100%;
+		height: 100%;
+	}
+	#marggbutt{
+		margin: 2% 32% auto;
+
+		background-color:#F7035F; 
+		color: #FFFFFF;
+		margin-bottom: 4%;
+	}
+	.pp01{
+		padding: 2% 10%;
+	}
+	.textmm{
+		font-size: 14px;
+	}
+	.colorf{
+	background-color: #F7035F;
+}
+}
+@media screen and (min-width : 920px){
+	.fotost{
+		background-size: 100%;
+		height: 300px;
+		width:33%;
+		background-repeat: no-repeat;
+	}
+	.imagehover{
+		opacity: 0;
+		width: 100%;
+		height: 14.8em;
+		background-color:rgba(243, 177, 212, 0.7);
+		-webkit-transition: opacity 0.2s;
+		font-size: 1em;	
+	}
+	.fotost:hover .imagehover{
+		opacity: 1;
+	}
+	#marggheader{
+		margin: 60px 350px auto;
+	}
+	.banner{
+		background-image: url("../img/header.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+		height: 500px;
+	}
+	#marggbutt{
+		margin: 2% 46% auto;
+		background-color:#F7035F; 
+		color: #FFFFFF;
+	}
+	.pp01{
+		padding: 2% 40%;
+	}
+	.textmm{
+		font-size: 17.2px;
+	}
+	.colorff{
+		background-color: #FFFFFF;
+		height: 40px;
+		opacity: 0.2;
+	}
+}
+#colornar{
+	color: #F7035F;
+	font-size: 20px;
+}
+.marg{
+	margin: 10px;
+}
+.padd{
+	padding: 10px;
+}
+.txtgrand{
+	font-size: 40px;	
+}
+.texttit{
+	font-size: 20px;
+}
+.txtblanco{
+	color: #FFFFFF;
+}
+.txtrosa{
+	color: #F5A2C1;
+}
+.textm{
+	font-size: 12px;
+}
+#lineanar{
+	border: 0; 
+	height:15%;
+	width: 10%;
+	border-top: 3px solid #F7035F;
+	border-bottom: 3px solid #F7035F; 
+}
+.fondnar{
+	background-color: #F5A2C1;
+	height: 210px;
+}
+.fondoblack{
+	background-color: #000000;
+	height: 180px;
+}
+.pp{
+	padding: 2% 20%;
+}
+#image1{
+	background-image: url("../img/1.jpg");
+}
+#image2{
+	background-image: url("../img/2.jpg");
+}
+#image3{
+	background-image: url("../img/3.jpg");
+}
+#image4{
+	background-image: url("../img/4.jpg");
+}
+#image5{
+	background-image: url("../img/5.jpg");
+}
+#image6{
+	background-image: url("../img/6.jpg");
+}
+div.col-lg-4{
+	padding: 0px;
+}
